@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Chat App</string>
+    <string name="app_name" translatable="false">Chat App</string>
     <string name="action_settings">Instellingen</string>
     <string name="edit_message">Bericht aanpassen</string>
     <string name="action_search">Zoeken</string>
@@ -8,16 +8,24 @@
     <string name="edit_title">Profiel bewerken</string>
     <string name="button_send">Ok</string>
     <string name="main_text">Vul je naam in om te kunnen beginnen met chatten</string>
-    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+    <string name="title_activity_main_drawer" translatable="false">Chat App</string>
 
     <string name="title_section1">Profiel</string>
     <string name="title_section2">Chat</string>
-    <string name="title_section3">Instellingen</string>
+    <string name="title_section3">Informatie</string>
 
     <string name="navigation_drawer_open">Open navigatie balk</string>
     <string name="navigation_drawer_close">Sluit navigatie balk</string>
     <string name="default_name">Gebruiker</string>
     <string name="name_changed">Naam aangepast</string>
-
+    <array name="entries_list_preference">
+        <item>Item 1</item>
+        <item>Item 2</item>
+    </array>
+    <array name="entryvalues_list_preference">
+        <item>Item 1</item>
+        <item>Item 2</item>
+    </array>
     <string name="settings">Instellingen</string>
+    <string name="info">Deze applicatie is gemaakt door Jeroen Nuijten</string>
 </resources>

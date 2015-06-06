@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigatie balk</string>
+    <string name="navigation_drawer_close">Sluit navigatie balk</string>
+    <string name="main_text">Vul je naam in om te kunnen beginnen met chatten</string>
+    <string name="name_changed">Naam aangepast</string>
+    <string name="edit_title">Profiel bewerken</string>
+    <string name="edit_name">Naam aanpassen</string>
+    <string name="edit_message">Bericht aanpassen</string>
+    <string name="default_name">Gebruiker</string>
+    <string name="button_send">Ok</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_search">Zoeken</string>
+    <string name="settings">Instellingen</string>
+    <string name="title_section1">Profiel</string>
+    <string name="title_section2">Chat</string>
+    <string name="title_section3">Informatie</string>
+    <string name="title_activity_settings">Instellingen</string>
+</resources>
