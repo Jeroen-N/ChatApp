@@ -28,4 +28,7 @@
     </array>
     <string name="settings">Instellingen</string>
     <string name="info">Deze applicatie is gemaakt door Jeroen Nuijten</string>
+    <string name="title_activity_server">ServerActivity</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
