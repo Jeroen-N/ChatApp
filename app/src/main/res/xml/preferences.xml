@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-
     <PreferenceCategory
-        android:title="Lines">
+        android:title="@string/server_info">
 
-        <CheckBoxPreference
-            android:key="checkbox_preference"
-            android:title="Checkbox"
-            android:summary="cc" />
+        <EditTextPreference
+            android:key="server_ip"
+            android:title="@string/server_ip"
+            android:summary="@string/server_summary" />
 
     </PreferenceCategory>
 
@@ -20,44 +19,6 @@
             android:summary=""
             android:defaultValue="@string/default_name"
             android:dialogTitle="@string/edit_name" />
-        <ListPreference
-            android:key="list_preference"
-            android:title="ttt"
-            android:summary="tt"
-            android:entries="@array/entries_list_preference"
-            android:entryValues="@array/entryvalues_list_preference"
-            android:dialogTitle="Dialog" />
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Launch preferences">
-
-        <!-- This PreferenceScreen tag serves as a screen break (similar to page break
-            in word processing). Like for other preference types, we assign a key
-            here so it is able to save and restore its instance state. -->
-        <PreferenceScreen
-            android:key="screen_preference"
-            android:title="Title screen"
-            android:summary="sss">
-
-            <CheckBoxPreference
-                android:key="next_screen_checkbox_preference"
-                android:title="see"
-                android:summary="deee" />
-
-        </PreferenceScreen>
-
-        <PreferenceScreen
-            android:title="Title"
-            android:summary="Summary intent">
-
-            <intent android:action="android.intent.action.VIEW"
-                android:data="http://www.android.com" />
-
-        </PreferenceScreen>
-
-    </PreferenceCategory>
-
-
 </PreferenceScreen>         

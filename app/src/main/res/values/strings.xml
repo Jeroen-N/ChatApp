@@ -22,4 +22,9 @@
     <string name="title_activity_server">Server Lijst</string>
     <string name="server">Server</string>
     <string name="name">Naam</string>
+
+    <!-- Preferences -->
+    <string name="server_info">Server</string>
+    <string name="server_ip">IP adres</string>
+    <string name="server_summary">Pas hier het IP adres aan van de server</string>
 </resources>

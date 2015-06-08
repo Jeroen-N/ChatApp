@@ -34,7 +34,8 @@ public class ServerListFragment extends ListFragment implements  AdapterView.OnI
         ArrayList<ServerListItem> serverListItems = new ArrayList<>();
         adapter = new ServerArrayAdapter(this.getActivity().getApplicationContext(), serverListItems);
         setListAdapter(adapter);
-        adapter.add(new ServerListItem("Test 1", "1111"));
+        adapter.add(new ServerListItem("Localhost", "http://10.0.2.2:3000/"));
+        adapter.add(new ServerListItem("Socket.IO demo", "http://chat.socket.io/"));
         getListView().setOnItemClickListener(this);
     }
 
@@ -46,7 +47,7 @@ public class ServerListFragment extends ListFragment implements  AdapterView.OnI
         Log.v(TAG, "Item clicked");
     }
 
-    interface OnItemSelectedListener {
+    public interface OnItemSelectedListener {
         public void onItemSelected(ServerListItem item);
     }
 
