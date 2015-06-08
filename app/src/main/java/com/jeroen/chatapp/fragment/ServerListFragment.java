@@ -34,6 +34,7 @@ public class ServerListFragment extends ListFragment implements  AdapterView.OnI
         ArrayList<ServerListItem> serverListItems = new ArrayList<>();
         adapter = new ServerArrayAdapter(this.getActivity().getApplicationContext(), serverListItems);
         setListAdapter(adapter);
+        Log.v(TAG, "Adapter set");
         adapter.add(new ServerListItem("Localhost", "http://10.0.2.2:3000/"));
         adapter.add(new ServerListItem("Socket.IO demo", "http://chat.socket.io/"));
         getListView().setOnItemClickListener(this);
@@ -41,7 +42,6 @@ public class ServerListFragment extends ListFragment implements  AdapterView.OnI
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        Toast.makeText(getActivity(), "Number " + i, Toast.LENGTH_SHORT).show();
         //Call the onItemSelected so that the activity gets the data from the interface
         listener.onItemSelected(adapter.getItem(i));
         Log.v(TAG, "Item clicked");

@@ -6,8 +6,8 @@
         <EditTextPreference
             android:key="server_ip"
             android:title="@string/server_ip"
-            android:summary="@string/server_summary" />
-
+            android:summary="@string/server_summary"
+            android:defaultValue="http://10.0.2.2:3000/"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -16,7 +16,7 @@
         <EditTextPreference
             android:key="name_preference"
             android:title="@string/edit_name"
-            android:summary=""
+            android:summary="@string/name_summary"
             android:defaultValue="@string/default_name"
             android:dialogTitle="@string/edit_name" />
 
