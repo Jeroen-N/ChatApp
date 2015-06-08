@@ -26,6 +26,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jeroen.chatapp.activity.MainActivity" />
         </activity>
+        <activity
+            android:name="com.jeroen.chatapp.activity.DetailActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jeroen.chatapp.activity.ServerActivity" />
+        </activity>
     </application>
 
 </manifest>

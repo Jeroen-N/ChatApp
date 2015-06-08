@@ -1,9 +1,13 @@
 package com.jeroen.chatapp;
 
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
 /**
  * An item which contains the url of a server and a name
  */
-public class ServerListItem {
+public class ServerListItem implements Serializable {
     private String name;
     private String serverUrl;
 

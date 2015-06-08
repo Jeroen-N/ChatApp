@@ -1,13 +1,17 @@
 package com.jeroen.chatapp.activity;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.jeroen.applicatie.R;
+import com.jeroen.chatapp.ServerListItem;
+import com.jeroen.chatapp.fragment.ServerDetailFragment;
+import com.jeroen.chatapp.fragment.ServerListFragment;
 
-public class ServerActivity extends ActionBarActivity {
+public class ServerActivity extends ActionBarActivity implements ServerListFragment.OnItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,24 +20,16 @@ public class ServerActivity extends ActionBarActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_server, menu);
-        return true;
-    }
+    public void onItemSelected(ServerListItem item){
+        ServerDetailFragment fragment = (ServerDetailFragment) getSupportFragmentManager().findFragmentById(R.id.detailFragment);
+        if(fragment != null && fragment.isInLayout()){
+            fragment.setText(item);
+        } else {
+            Intent intent = new Intent(getApplicationContext(),
+                    DetailActivity.class);
+            intent.putExtra("Item", item);
+            startActivity(intent);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
         }
-
-        return super.onOptionsItemSelected(item);
     }
 }
