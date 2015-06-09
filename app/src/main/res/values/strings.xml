@@ -25,6 +25,8 @@
     <string name="joined">is aangemeld</string>
     <string name="left">is weggegaan</string>
 
+    <string name="action_attach">Bestand kiezen</string>
+    <string name="action_capture">Foto maken</string>
     <!-- Preferences -->
     <string name="server_info">Server</string>
     <string name="server_ip">IP adres</string>

@@ -36,7 +36,7 @@ public class SettingsFragment extends PreferenceFragment {
 
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate()");
-
+        setHasOptionsMenu(false);
         // Define the settings file to use by this settings fragment
         getPreferenceManager().setSharedPreferencesName("preferences");
 

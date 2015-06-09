@@ -16,7 +16,7 @@ public class InfoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //Make sure other views are gone
         container.removeAllViews();
-
+        setHasOptionsMenu(false);
         //Inflate new view
         return inflater.inflate(R.layout.fragment_info, container, false);
     }

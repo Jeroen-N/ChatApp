@@ -25,6 +25,7 @@ public class ServerListFragment extends ListFragment implements  AdapterView.OnI
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         //Inflate the view
+        setHasOptionsMenu(false);
         return inflater.inflate(R.layout.fragment_server_list, container, false);
     }
 

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jeroen.chatapp.activity.MainActivity">
+    <!--<item android:id="@+id/action_example" android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom" />-->
+    <item android:id="@+id/action_attach"
+        android:icon="@drawable/ic_action_attachment"
+        android:title="@string/action_attach"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_capture"
+        android:icon="@drawable/ic_action_camera"
+        android:title="@string/action_capture"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
