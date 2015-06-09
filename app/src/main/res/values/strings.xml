@@ -3,14 +3,10 @@
     <string name="action_settings">Instellingen</string>
     <string name="edit_message">Bericht aanpassen</string>
     <string name="action_search">Zoeken</string>
-    <!-- Main Activity -->
+
     <string name="edit_name">Naam aanpassen</string>
     <string name="button_send">Ok</string>
     <string name="title_activity_main_drawer" translatable="false">Chat App</string>
-
-    <string name="title_section1">Informatie</string>
-    <string name="title_section2">Chat</string>
-    <string name="title_section3">Server Lijst</string>
 
     <string name="navigation_drawer_open">Open navigatie balk</string>
     <string name="navigation_drawer_close">Sluit navigatie balk</string>
@@ -20,6 +16,7 @@
     <string name="settings">Instellingen</string>
     <string name="info">Deze applicatie is gemaakt door Jeroen Nuijten.</string>
     <string name="title_activity_server">Server Lijst</string>
+    <string name="title_activity_detail">Server Info</string>
     <string name="server">Server</string>
     <string name="name">Naam</string>
     <string name="joined">is aangemeld</string>
@@ -27,9 +24,28 @@
 
     <string name="action_attach">Bestand kiezen</string>
     <string name="action_capture">Foto maken</string>
+
     <!-- Preferences -->
+
     <string name="server_info">Server</string>
     <string name="server_ip">IP adres</string>
     <string name="server_summary">Pas het IP adres aan van de server</string>
     <string name="name_summary">Pas de naam aan die in de chat getoond wordt</string>
+
+    <!-- Drawer -->
+
+    <string name="title_section1">Informatie</string>
+    <string name="title_section2">Chat</string>
+    <string name="title_section3">Server Lijst</string>
+
+    <string-array name="sections">
+        <item>Informatie</item>
+        <item>Chat</item>
+        <item>Server Lijst</item>
+    </string-array>
+    <string-array name="sections_icons">
+        <item>@drawable/ic_info_black</item>
+        <item>@drawable/ic_speak_black</item>
+        <item>@drawable/ic_dns_black</item>
+    </string-array>
 </resources>
