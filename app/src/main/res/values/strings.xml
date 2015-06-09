@@ -24,6 +24,7 @@
 
     <string name="action_attach">Bestand kiezen</string>
     <string name="action_capture">Foto maken</string>
+    <string name="join_server">Gebruik server</string>
 
     <!-- Preferences -->
 
@@ -48,4 +49,5 @@
         <item>@drawable/ic_speak_black</item>
         <item>@drawable/ic_dns_black</item>
     </string-array>
+    <string name="title_activity_settings">Instellingen</string>
 </resources>

@@ -22,4 +22,9 @@
     <string name="server_ip">IP Adres</string>
     <string name="server_summary">Pas het standaard IP adres aan van de server</string>
     <string name="name_summary">Pas de naam aan die in de chat getoond wordt</string>
+    <string name="title_activity_detail">Server Informatie</string>
+    <string name="action_capture">Foto maken</string>
+    <string name="action_attach">Bestand kiezen</string>
+    <string name="joined">is aangemeld</string>
+    <string name="left">is weggegaan</string>
 </resources>

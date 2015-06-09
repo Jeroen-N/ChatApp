@@ -2,13 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
         android:layout_marginTop="20dip"
         android:text="@string/name"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -18,7 +18,6 @@
         android:id="@+id/text_name_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dip"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -28,7 +27,6 @@
         android:id="@+id/text_server"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dip"
         android:text="@string/server"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -38,10 +36,15 @@
         android:id="@+id/text_server_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dip"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="28sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_server"
+        android:id="@+id/button" />
 
 </LinearLayout> 
