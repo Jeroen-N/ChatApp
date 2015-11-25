@@ -1,2 +1,2 @@
 # ChatApp
-Chat application with native Android using Node.JS server and Socket.IO extension. 
+Chat application with native Android using a Node.JS server and a Socket.IO extension to communicate. 
